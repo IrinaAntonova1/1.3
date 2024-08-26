@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    list-style: none;
+    background: none;
+}
+
+
+
+.menu {
+    width: 320px;
+    height: 88px;
+    border-color: 3px black;
+}
+
+.image_svg {
+    width: 40px;
+    height: 40px;
+    flex-direction: row;
+    
+
+}
+
+.image_svg_logo {
+    width: 96.55px;
+    height: 50.81px;
+
+}
+
+.divider {
+    width: 2px;
+    height: 32px;
+}
+.menu_img {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 88px;
+    border-color: 3px black;
+    align-items: center;
+}
