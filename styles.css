@@ -6,13 +6,17 @@
     background: none;
 }
 
-
-
-.menu {
-    width: 320px;
-    height: 88px;
-    border-color: 3px black;
+html {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    color: #000;
+    background: #fff;
+}
+
 
 .image_svg {
     width: 40px;
@@ -22,7 +26,7 @@
 
 }
 
-.image_svg_logo {
+.call {
     width: 96.55px;
     height: 50.81px;
 
@@ -35,10 +39,75 @@
 .menu_img {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 9px;
     flex-wrap: wrap;
+    margin: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    border: 1px solid black;
     width: 320px;
     height: 88px;
-    border-color: 3px black;
-    align-items: center;
+}
+
+main {
+    width: 320px;
+    height: 509px;
+    border: 1px solid black;
+
+}
+
+.catolog_title {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: 28px;
+    color: #1B1C21;
+    margin-top: 17px;
+
+}
+
+.picture {
+    width: 320px;
+    height: 176px;
+}
+
+.but1 {
+    width: 258px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #B8FFEC;
+    font-size: 16px;
+    font-family: TT Lakes;
+    color: #7e7e82;
+}
+
+.but2 {
+    width: 258px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #B8FFEC;
+    font-size: 16px;
+    font-family: TT Lakes;
+    color: #7e7e82;
+}
+
+.butt {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 12px;
+    flex-direction: row;
+}
+
+.text_abz {
+    width: 288px;
+    height: 90px;
+    font-size: 14px;
+    font-family: TT Lakes;
+    color: #1B1C21;
+    justify-content: center;
+    margin: 12px;
 }
